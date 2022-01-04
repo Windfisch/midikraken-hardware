@@ -1,0 +1,3 @@
+[submodule "midikraken"]
+	path = midikraken
+	url = https://github.com/Windfisch/midikraken
