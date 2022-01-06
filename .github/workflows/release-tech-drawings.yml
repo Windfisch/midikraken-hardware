@@ -25,7 +25,7 @@ jobs:
         working-directory: midikraken/hardware
       - uses: ncipollo/release-action@v1
         with:
-          draft: true
+          draft: false
           prerelease: false
           name: hardware-drawings-${{ steps.version.outputs.version }}
           artifacts: "midikraken/hardware/midikraken-hardware-drawings-${{ steps.version.outputs.version }}.zip"
